@@ -8,25 +8,25 @@ This repository includes the two files that **must be included** in all project 
 *Please complete the information below:*
 
 ### Project Name
-[Enter a project title]
+Clean-Sac
 
 ### Project Description
-[Enter a short description]
+A web-app for a cleaner Sacramento. Shows areas in Sacramento County that have more problems than others. Suggests and makes an event when an area gets too bad in a certain area. 
 
 ### Team Members
-- [Team Leader Name, email address]
-- [Additional Team Members, email address]
-- [...]
+- Varun Ved: varunved@csus.edu
+- Matthew Meril: matthewmeril@csus.edu
+- David Judilla: davidjudilla@csus.edu
+- Brandon Sherman: brandonsherman@csus.edu
 
 ### Stakeholder Engagement
-- [If you worked with County staff to develop your project, please enter the name and department of your contact]
-- [Include any nonprofits or other stakeholders you engaged in the development your project]
+- N/A
 
 ### Developer Documentation
 [Include any necessary instructions for developers to setup their local development environment and deploy your project to a production server]
 
 ### Additional Information (optional)
-[Include any additional information that you would like the judges to know about your project]
+Originally populated our map with open data from the 311 dataset. 
 
 ## Submission Instructions
 
