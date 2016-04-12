@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>Clean Sac</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+	<div id="app">
+		<div class="app__navbar">
+			<span id="togglebtn"><i class="fa fa-2x fa-bars"></i></span>
+			<span class="title">Service Request</span>
+		</div>
+		<div id="dropdown">
+			<ul>
+				<li><a href="index.html">Request Service</a></li>
+				<li><a href="heatmap.html">Heat Map</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Sign in</a></li>
+			</ul>
+		</div>
+
+		<div id="map">
+
+		</div>
+
+		<div id="slideupBtn">
+			<div>
+				<i class="fa fa-pencil-square-o"></i>
+			</div>
+		</div>
+		<div id="trashReport">
+
+			<form class="trashForm">
+
+				<div class="title"></div>
+				<div class="location">
+					<div class="form_titles">Pin Location</div>
+					<div class="form_latlong"></div>
+
+				</div>
+
+				<div class="type">
+					<div class="form_titles">Type of Report</div>
+
+					<select id="type">
+						<option>Graffiti</option>
+						<option>Trees</option>
+						<option>Illegal Dumping</option>
+						<option>Pavement</option>
+						<option>Traffic Sign Complaints</option>
+						<option>Sweeper Request</option>
+						<option>Stray Animals</option>
+						<option>Abandoned Vehicles</option>
+					</select>
+
+				</div>
+
+				<div class="description">
+					<label class="form_titles" for="description">Description</label>
+					<textarea rows="4" cols="40" maxlength="255" class="form_inputs" id="description" type="text">
+
+					</textarea>
+					
+				</div>
+				<div>
+					<input id="submitBtn" type="submit" value="Submit">
+					<input id="cancelBtn" type="button" value="Cancel">
+				</div>
+
+			</form>
+
+		</div>
+	</div>
+	<script src="https://cdn.auth0.com/js/lock-9.0.min.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
